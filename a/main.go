@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/carzil/go-test/b"
+	"github.com/carzil/go-test/b/version"
 )
 
 func main() {
-	fmt.Printf("%s", b.Version())
+	fmt.Printf("%s", version.Version())
 }
